@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courseListNames" translatable="false">
+    <item>PCSMA</item>
+    <item>MC</item>
+    <item>IR</item>
+    <item>DBSI</item>
+    <item>TOC</item>
+    <item>HCI</item>
+    <item>PR</item>
+    <item>IED</item>
+    <item>AP</item>
+    <item>OS</item>
+    <item>CN</item>
+    <item>ML</item>
+
+
+    </string-array>
+</resources>

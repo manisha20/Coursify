@@ -1,0 +1,135 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000000"
+    tools:context="salazar.com.coursify.ReviewFrag1"
+    android:padding="10dp">
+
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Select
+Coursename:"
+                android:id="@+id/textView11"
+                android:layout_weight="1"
+                android:textColor="#ff1e610f" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="2"
+                android:textColor="#FF135961" />
+
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DO's"
+                android:id="@+id/textView3"
+                android:textColor="#ff1e610f" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Double check your comments before posting.
+  Course name must be accurate, and it doesn’t hurt to
+  check grammar.
+
+  Discuss the professor’s professional abilities including
+  teaching style and ability to convey the material clearly."
+
+
+
+                android:id="@+id/textView4"
+                android:textAlignment="viewStart"
+                android:textColor="#ff135961" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Dont's"
+                android:id="@+id/textView5"
+                android:textColor="#ff1e610f" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Use profanity, name-calling, derogatory terms,
+    definitive language, (e.g., 'always','never','etc.').
+    And, don’t claim that the professor
+    shows bias or favoritism for or against students."
+                android:id="@+id/textView6"
+                android:textAlignment="viewStart"
+                android:textColor="#FF135961" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>

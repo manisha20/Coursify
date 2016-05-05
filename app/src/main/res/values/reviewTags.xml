@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countrynames" translatable="false">
+        <item>Amazing Lectures</item>
+        <item>Awesome Professor</item>
+        <item>Expect tough assignments</item>
+        <item>Awesome Assignments</item>
+        <item>Tests are tough</item>
+        <item>Expect pop quizzes</item>
+        <item>Hard Grading Scheme</item>
+        <item>Helpful Professor</item>
+        <item>Easy peasy course</item>
+        <item>Boring lectures</item>
+    </string-array>
+</resources>
